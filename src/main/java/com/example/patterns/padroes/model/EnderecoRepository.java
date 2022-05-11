@@ -1,4 +1,6 @@
 package com.example.patterns.padroes.model;
 
-public class EnderecoRepository {
+import org.springframework.data.repository.CrudRepository;
+
+public interface EnderecoRepository extends CrudRepository<Endereco, String> {
 }
